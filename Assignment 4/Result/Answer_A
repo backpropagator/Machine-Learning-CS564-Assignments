@@ -1,0 +1,17 @@
+Result to Part A
+-----------------
+
+Accuracy of Individual Classifiers:
+Accuracy of Logistic Regression: 0.7291666666666666
+Accuracy of Naive Bayes: 0.8333333333333334
+Accuracy of Decision Trees: 0.6875
+
+
+Accuracy of Ensembling Methods:
+Accuracy of Majority Voting: 0.7708333333333334
+Accuracy of Weighted Voting: 0.7916666666666666
+
+Observation:
+-------------
+As it can be seen from Result that Ensembling doesn't always give best result, because here, Naive Bayes gives the best accuracy of 83.3% however the ensemble methods give the accuracy of 77% and 79.1%.
+Reason for this is that we are also considering results of the classifiers which do not perform that well on the dataset.

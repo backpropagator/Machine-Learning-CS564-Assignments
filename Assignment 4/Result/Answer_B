@@ -1,0 +1,91 @@
+Result to Part B
+-----------------
+
+Version 1 Parameters
+--------------------------------------------------
+Logistic Regression: Penalty = L1 & Primal Formulation = False & Solver = liblinear
+Naive Bayes: Prior on Classes = (label1:0.5), (label2:0.5)
+Decision Tree: Max Depth=5
+
+Accuracy of Individual Classifiers:
+Logistic Regression: 0.7291666666666666
+Naive Bayes: 0.8333333333333334
+Decision Trees: 0.7083333333333334
+
+
+Accuracy of Ensembling Methods:
+Majority Voting: 0.7708333333333334
+Weighted Voting: 0.7708333333333334
+
+
+Version 2 Parameters
+--------------------------------------------------
+Logistic Regression: Penalty = L2 & Primal Formulation = False & Solver = lbfgs
+Naive Bayes: Prior on Classes = (label1:0.4), (label2:0.6)
+Decision Tree: Max Depth=10
+
+Accuracy of Individual Classifiers:
+Logistic Regression: 0.7291666666666666
+Naive Bayes: 0.8333333333333334
+Decision Trees: 0.7083333333333334
+
+
+Accuracy of Ensembling Methods:
+Majority Voting: 0.75
+Weighted Voting: 0.75
+
+
+Version 3 Parameters
+--------------------------------------------------
+Logistic Regression: Penalty = Elasticnet & Primal Formulation = False & Solver = SaGa
+Naive Bayes: Prior on Classes = (label1:0.6), (label2:0.4)
+Decision Tree: Max Depth=15
+
+Accuracy of Individual Classifiers:
+Logistic Regression: 0.6458333333333334
+Naive Bayes: 0.8333333333333334
+Decision Trees: 0.6875
+
+
+Accuracy of Ensembling Methods:
+Majority Voting: 0.75
+Weighted Voting: 0.75
+
+
+Version 4 Parameters
+--------------------------------------------------
+Logistic Regression: Penalty = None & Primal Formulation = False & Solver = lbfgs
+Naive Bayes: Prior on Classes = (label1:0.3), (label2:0.7)
+Decision Tree: Max Depth=25
+
+Accuracy of Individual Classifiers:
+Logistic Regression: 0.7708333333333334
+Naive Bayes: 0.8333333333333334
+Decision Trees: 0.7291666666666666
+
+
+Accuracy of Ensembling Methods:
+Majority Voting: 0.7916666666666666
+Weighted Voting: 0.7708333333333334
+
+
+Version 5 Parameters
+--------------------------------------------------
+Logistic Regression: Penalty = L2 & Primal Formulation = True & Solver = liblinear
+Naive Bayes: Prior on Classes = (label1:0.7), (label2:0.3)
+Decision Tree: Max Depth=35
+
+Accuracy of Individual Classifiers:
+Logistic Regression: 0.5208333333333334
+Naive Bayes: 0.8541666666666666
+Decision Trees: 0.7083333333333334
+
+
+Accuracy of Ensembling Methods:
+Majority Voting: 0.7916666666666666
+Weighted Voting: 0.7708333333333334
+
+
+Observation
+------------
+It can be observed from the results that, in all the version the ensembles perform averagely as the best result is still given by Naive Bayes in every version.
